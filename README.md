@@ -1,8 +1,6 @@
-# FitnessIntelligence
-Fitness App which uses most accurate scientific formuals for caculating health data from raw data from health connect (Data processing of this app works best when workouts are long enough and consistent)
 # FitnessIntelligence 🏃‍♂️📊
 
-**MFitnessIntelligence** is a high-performance Android application built to bridge the gap between consumer-grade fitness tracking and professional sports science. By integrating directly with **Google Health Connect**, it extracts high-frequency data from Xiaomi/Mi Fitness devices and applies advanced physiological models to provide insights typically reserved for elite athletes.
+**FitnessIntelligence** is a high-performance Android application built to bridge the gap between consumer-grade fitness tracking and professional sports science. By integrating directly with **Google Health Connect**, it extracts high-frequency data Fitness devices and applies advanced physiological models to provide insights typically reserved for elite athletes.
 
 ---
 
@@ -11,7 +9,7 @@ Fitness App which uses most accurate scientific formuals for caculating health d
 The application is built on **Clean Architecture** principles, ensuring a strict separation between data acquisition, mathematical processing, and UI presentation.
 
 ### 1. The Data Pipeline (Health Connect Integration)
-Unlike standard apps that read simple summaries, Mi Fitness Analyzer performs deep-data extraction:
+Unlike standard apps that read simple summaries, FitnessIntelligence performs deep-data extraction:
 *   **Multi-Record Synchronization:** The app concurrently fetches `ExerciseSessionRecord`, `HeartRateRecord`, `DistanceRecord`, `StepsRecord`, and `PowerRecord`.
 *   **High-Frequency Sampling:** It retrieves individual heart rate samples (intraday data) to calculate HRV-derived metrics and cardiac drift, rather than relying on session averages.
 *   **Scientific Resting HR:** Instead of a static user input, the app calculates a "Scientific Resting HR" by analyzing heart rate samples between **2:00 AM and 6:00 AM** over a rolling 30-day window, using the 1st percentile of samples to filter out sleep disturbances.
@@ -73,3 +71,5 @@ Quantifying internal stress is handled via three methodologies:
 
 ---
 *Disclaimer: Fitness Analyzer is a tool for athletes and enthusiasts. It is not intended for medical diagnosis. Always consult a physician before beginning a high-intensity training program.*
+
+This is partially vibe coded using gemini 3.0 flash preview and Gpt 5.5
