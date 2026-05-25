@@ -72,4 +72,4 @@ Quantifying internal stress is handled via three methodologies:
 ---
 *Disclaimer: Fitness Analyzer is a tool for athletes and enthusiasts. It is not intended for medical diagnosis. Always consult a physician before beginning a high-intensity training program.*
 
-This is partially vibe coded using gemini 3.0 flash preview and Gpt 5.5
+This is partially vibe coded using gemini-3.0-flash preview and gpt-5.5
