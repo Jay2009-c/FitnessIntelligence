@@ -65,7 +65,7 @@ Quantifying internal stress is handled via three methodologies:
 
 ## 🚀 How It Works
 1.  **Permission:** Grant Health Connect permissions for Heart Rate, Exercise, and Steps.
-2.  **Sync:** The `DataSyncWorker` triggers a background sync to fetch new Xiaomi/Mi Fitness data.
+2.  **Sync:** The `DataSyncWorker` triggers a background sync to fetch new data.
 3.  **Analyze:** The engine processes raw samples, applies the TRIMP and VO2 Max models, and determines your training effect.
 4.  **Optimize:** Use the recovery and decoupling data to decide whether to train hard or take a rest day.
 
