@@ -1,6 +1,6 @@
 # FitnessIntelligence 🏃‍♂️📊
 
-**FitnessIntelligence** is a high-performance Android application built to bridge the gap between consumer-grade fitness tracking and professional sports science. By integrating directly with **Google Health Connect**, it extracts high-frequency data Fitness devices and applies advanced physiological models to provide insights typically reserved for elite athletes.
+**FitnessIntelligence** is a high-performance Android application built to bridge the gap between consumer-grade fitness tracking and professional sports science. By integrating directly with **Google Health Connect**, it extracts high-frequency data from Fitness devices and applies advanced physiological models to provide insights typically reserved for elite athletes.
 
 ---
 
